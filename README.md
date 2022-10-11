@@ -2,7 +2,7 @@
 
 Project developed by onapoli- & pmira-pe students from 42.
 
-**webserv** aims to teach how _web servers_ work. So this project is like an Nginx made from zero using C++98 with no external libraries and targetting UNIX operating systems.
+**webserv** aims to teach how _web servers_ work. So this project is like an Nginx made from zero using C++98 with no external libraries and targetting UNIX operating systems. It implements HTTP/1.1 protocol and CGI/1.1 interface.
 
 ## Requirements
 
@@ -42,7 +42,7 @@ These config files have strict rules. Check `tests/example_config.json` to have 
 
 ## How to stop it
 
-- To **stop the server**. Inside the repository directory press:
+- To **stop the server**. In the terminal where the server is running press:
 	```
 	Ctrl + C
 	```
