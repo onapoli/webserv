@@ -62,8 +62,8 @@ FileData::FileData(std::string const & filePath, int const connFd)
 }
 
 ConnectionData::ConnectionData(void) : serverIndex(0), locationIndex(0),
-  lastActive(0), lastRead(0), lastSend(0), handledRequests(0), dirListNeedle(0),
-  fileData(0), cgiData(0)
+  status(Active), lastActive(0), lastRead(0), lastSend(0), handledRequests(0),
+  dirListNeedle(0), fileData(0), cgiData(0)
 {
   return ;
 }
